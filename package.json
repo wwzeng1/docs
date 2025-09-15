@@ -1,0 +1,21 @@
+{
+  "name": "nextra-blog",
+  "version": "1.0.0",
+  "description": "A minimal Nextra blog",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "nextra": "^4.0.0",
+    "nextra-theme-blog": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0"
+  }
+}

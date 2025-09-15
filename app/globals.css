@@ -1,0 +1,42 @@
+/* Global styles for the Sweep AI blog */
+
+.download-button:hover {
+  background-color: #005a9e !important;
+}
+
+.blog-card:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+/* Override Nextra Layout spacing to move content higher */
+.nextra-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Alternative selectors in case the above doesn't work */
+main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+article {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Remove spacing from navbar */
+nav {
+  margin-bottom: 0 !important;
+}
+
+/* Target Nextra's navbar specifically */
+.nextra-navbar {
+  margin-bottom: 0 !important;
+}
+
+/* Remove any padding from the layout wrapper */
+.nextra-layout {
+  padding-top: 0 !important;
+}
